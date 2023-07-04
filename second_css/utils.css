@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+.m-auto{
+    margin: auto;
+}
+
+.max-width{
+    max-width: 850px;
+}
+
+.cards-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    flex: 1 1 21rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 21px;
+    box-shadow: 0 0 5px rgb(116, 116, 116);
+    align-self: normal;
+    margin-bottom: 120px;
+}
+
+.cardback{
+    background-image: linear-gradient(rgb(78, 105, 255), rgb(61, 212, 254), rgb(137, 255, 216));
+    background-color: rgb(224, 255, 250);
+    height: 650px;
+    margin: 0px;
+    padding: 120px;
+}
+
+.lateheading{
+    margin: 50px 50px;
+    align-items: middle;
+    text-align: center;
+}
+
+.welcome{
+    margin: 50px 50px;
+    align-items: middle;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 120px;
+    color: aliceblue;
+}
+
